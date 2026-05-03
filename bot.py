@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # --- SETTINGS ---
 # Agar Render use kar rahe hain to TOKEN ko environment variable mein dalna behtar hai
-TOKEN = '8617592022:AAHP0btRZbKccsQ7icWDb_j8NsBjVirJ-OY' 
+TOKEN = '8617592022:AAHP0btRZbKccsQ7icWDb_j8NsBjVirJ-OY'
 SYMBOLS = ['eurusdt', 'gbpusdt', 'btcusdt', 'audusdt', 'usdjpy', 'audjpy', 'usdbrl', 'eurjpy', 'ethusd', 'solusd', 'grassusd', 'gbpusd']
 market_storage = {s: [] for s in SYMBOLS}
 
